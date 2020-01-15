@@ -1,0 +1,37 @@
+mysql> select count(distinct model) as num_of_products_by_makerfrom pc natural join productgroup by maker;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pc natural join productgroup by maker' at line 1
+mysql> select count(distinct model) as num_of_products_by_maker from pc natural join product group by maker;
++--------------------------+
+| num_of_products_by_maker |
++--------------------------+
+|                        3 |
+|                        3 |
+|                        1 |
+|                        3 |
+|                        3 |
++--------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select max(screen) as max_screen_size_by_E from laptop natural join product where maker = 'E';
++----------------------+
+| max_screen_size_by_E |
++----------------------+
+|                 20.1 |
++----------------------+
+1 row in set (0.00 sec)
+
+mysql> select avg(price)from (select price, maker from product, pc where product.model = pc.model union all select price, maker   from product, laptop where product.model = laptop.model union all select price, maker from product, printer where product.model = printer.model ) as union_price group by maker having avg(price) >= 200 order by avg(price) desc;
++-------------+
+| avg(price)  |
++-------------+
+| 2300.000000 |
+| 1489.500000 |
+|  949.444444 |
+|  939.250000 |
+|  790.000000 |
+|  510.000000 |
+|  486.000000 |
++-------------+
+7 rows in set (0.00 sec)
+
+mysql> quit
