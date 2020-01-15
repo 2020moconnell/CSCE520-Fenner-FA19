@@ -1,0 +1,1 @@
+select model from PC where speed >= 3;

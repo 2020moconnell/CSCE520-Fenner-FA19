@@ -1,0 +1,1 @@
+select model from Printer where color = '1' and type = 'laser';

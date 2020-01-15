@@ -1,0 +1,1 @@
+select maker from Product natural join Laptop where hd >= 100;
