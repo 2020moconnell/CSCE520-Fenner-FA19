@@ -1,0 +1,116 @@
+source C:\Users\Maggie\Desktop\Databases\hw5.sql;
+ERROR:
+Unknown command '\U'.
+ERROR:
+Unknown command '\M'.
+ERROR:
+Unknown command '\D'.
+ERROR:
+Unknown command '\D'.
+ERROR:
+Unknown command '\e'.
++-------+
+| maker |
++-------+
+| B     |
+| E     |
++-------+
+2 rows in set (0.00 sec)
+
++-------+
+| maker |
++-------+
+| B     |
+| E     |
++-------+
+2 rows in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  3003 |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  3003 |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  2001 |
+|  2002 |
+|  2003 |
+|  2004 |
+|  2005 |
+|  2006 |
+|  2007 |
+|  2008 |
+|  2009 |
+|  2010 |
++-------+
+10 rows in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  2001 |
+|  2002 |
+|  2003 |
+|  2004 |
+|  2005 |
+|  2006 |
+|  2007 |
+|  2008 |
+|  2009 |
+|  2010 |
++-------+
+10 rows in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  2001 |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| model |
++-------+
+|  2001 |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| maker |
++-------+
+| E     |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| maker |
++-------+
+| E     |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| maker |
++-------+
+| B     |
++-------+
+1 row in set (0.00 sec)
+
++-------+
+| maker |
++-------+
+| B     |
++-------+
+1 row in set (0.00 sec)
+
+mysql>
