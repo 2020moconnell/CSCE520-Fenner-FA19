@@ -1,0 +1,171 @@
+mysql> source C:\Users\Maggie\Desktop\Databases\hw3.sql;
+ERROR:
+Unknown command '\U'.
+ERROR:
+Unknown command '\M'.
+ERROR:
+Unknown command '\D'.
+ERROR:
+Unknown command '\D'.
+ERROR:
+Unknown command '\e'.
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1364 (HY000): Field 'type' doesn't have a default value
+ERROR 3819 (HY000): Check constraint 'checkType' is violated.
+ERROR 1062 (23000): Duplicate entry '2001' for key 'PRIMARY'
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`sales`.`pc`, CONSTRAINT `pc_ibfk_1` FOREIGN KEY (`model`) REFERENCES `product` (`model`))
++-------+-------+---------+--------+
+| model | color | type    | price  |
++-------+-------+---------+--------+
+|  3001 |     1 | ink-jet |  99.00 |
+|  3002 |     0 | laser   | 239.00 |
+|  3003 |     1 | laser   | 899.00 |
+|  3004 |     1 | ink-jet | 120.00 |
+|  3005 |     0 | laser   | 120.00 |
+|  3006 |     1 | ink-jet | 100.00 |
+|  3007 |     1 | laser   | 200.00 |
++-------+-------+---------+--------+
+7 rows in set (0.00 sec)
+
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`sales`.`printer`, CONSTRAINT `printer_ibfk_1` FOREIGN KEY (`model`) REFERENCES `product` (`model`))
++-------+-------+---------+--------+
+| model | color | type    | price  |
++-------+-------+---------+--------+
+|  3001 |     1 | ink-jet |  99.00 |
+|  3002 |     0 | laser   | 239.00 |
+|  3003 |     1 | laser   | 899.00 |
+|  3004 |     1 | ink-jet | 120.00 |
+|  3005 |     0 | laser   | 120.00 |
+|  3006 |     1 | ink-jet | 100.00 |
+|  3007 |     1 | laser   | 200.00 |
++-------+-------+---------+--------+
+7 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
