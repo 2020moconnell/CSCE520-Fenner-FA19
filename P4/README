@@ -1,0 +1,5 @@
+Recall the database schema of Exercise 2.4.1. Write SQL queries for the following things:
+
+The number of pc's made by each maker
+The maximum screen size of a laptop made by E
+The average price of products made by each maker (but only if that average price is at least 200), in descending order of price
