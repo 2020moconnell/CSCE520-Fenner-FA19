@@ -1,0 +1,11 @@
+2.3.1 and 2.4.1
+
+ADD
+insert into Product(maker, model) values('I', 1014);
+insert into Product values('J', 4001, 'toaster');
+insert into Laptop values (2001, 3.00, 1024, 480, 15.6, 1995);
+delete from Product where model=1001;
+select * from Printer;
+delete from Product where model=3001;
+select * from Printer;
+rollback;
